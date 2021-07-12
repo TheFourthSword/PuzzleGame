@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - LookAround
     - Player_Movement
     - WeightButton
+    - cursor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -64,9 +65,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -103,13 +104,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12166}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12644}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 34110}
+      Script: {instanceID: 12998}
+    - Class: 114
+      Script: {instanceID: 16336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,9 +171,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -221,9 +224,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -274,9 +277,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11288}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12850}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -313,13 +316,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12166}
+      Script: {instanceID: 12054}
     - Class: 114
-      Script: {instanceID: 12644}
+      Script: {instanceID: 12168}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12646}
     - Class: 114
-      Script: {instanceID: 34110}
+      Script: {instanceID: 12998}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -580,6 +583,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
@@ -810,7 +819,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ButtonScript
+    className: cursor
   platform: 5
   scenePathNames:
   - Assets/Scenes/start screen.unity
@@ -819,5 +828,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/new level 4.unity
   - Assets/Scenes/new level 3.unity
   - Assets/Scenes/WinScreen.unity
-  playerPath: C:/Users/lilit/OneDrive/Documents/My Games/school/PuzzleGameBPW/Puzzle
+  playerPath: C:/Users/lilit/OneDrive/Documents/My Games/school/PuzzleGameBPW_v2/Puzzle
     tryout.exe
