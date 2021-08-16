@@ -1034,5 +1034,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/new level 5.unity
   - Assets/Scenes/new level 6.unity
   - Assets/Scenes/WinScreen.unity
-  playerPath: C:/Users/lilit/OneDrive/Documents/My Games/school/PuzzleGameBPW_v5/Puzzle
-    tryout.exe
+  playerPath: C:/Users/lilit/OneDrive/Documents/My Games/school/PuzzleGameBPW_v6/Buttons
+    - A Very Creative Title.exe
