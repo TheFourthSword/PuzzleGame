@@ -9,15 +9,22 @@ public class WeightButton : MonoBehaviour
     public ButtonType BigButtonBuddy;
     public int GoodThiccness;
     public int CurrentThiccness;
+    public barscript bar;
 
     public UnityEvent Stonks;
     public UnityEvent NotStonks;
+
+    public void Start()
+    {
+        bar?.setBar(CurrentThiccness, GoodThiccness);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
        if (other.CompareTag ("Thicc"))
         {
             CurrentThiccness += other.GetComponent<HowHeavy>().Thiccy;
+            bar?.setBar(CurrentThiccness, GoodThiccness);
             ThiccEnough();
         }
     }
@@ -27,6 +34,7 @@ public class WeightButton : MonoBehaviour
         if (other.CompareTag("Thicc"))
         {
             CurrentThiccness -= other.GetComponent<HowHeavy>().Thiccy;
+            bar?.setBar(CurrentThiccness, GoodThiccness);
             ThiccEnough();
         }
     }

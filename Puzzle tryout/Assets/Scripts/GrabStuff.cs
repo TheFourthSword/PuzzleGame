@@ -22,8 +22,9 @@ public class GrabStuff : MonoBehaviour
  
     void Update()
     {
-        //if you are not holding anything, left mouse click will grab an item, otherwise it will drop the one you are holding
-        if(Input.GetMouseButtonDown(0))
+
+            //if you are not holding anything, left mouse click will grab an item, otherwise it will drop the one you are holding
+            if (Input.GetMouseButtonDown(0))
         {
             if (Target == null)
             {
